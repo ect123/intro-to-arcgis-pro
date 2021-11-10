@@ -21,7 +21,7 @@ By the end of this workshop, you will be able to:
 
 The map you create will look something like this image below.
 
-![map.jpg](../images/map.jpg)
+![map.jpg](images/map.jpg)
 
 ### GIS Resources at UBC
 - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/)    
