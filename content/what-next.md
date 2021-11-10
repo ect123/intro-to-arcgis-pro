@@ -25,7 +25,7 @@ You may also be interested in the use of other GIS software to analyze Census da
 - working with dot density in R
 
 [canlang](https://ttimbers.github.io/canlang/)
-- The goal of {canlang} is to easily share language data collected in the 2016 Canadian census. This data was retreived from the 2016 Canadian census data set using the {cancensus} R package
+- The goal of {canlang} is to easily share language data collected in the 2016 Canadian census. This data was retrieved from the 2016 Canadian census data set using the {cancensus} R package
 
 [Language Diversity in Canada](https://www.dshkol.com/2017/language-diversity-in-canada/)
 
@@ -38,5 +38,3 @@ You may also be interested in the use of other GIS software to analyze Census da
 [Introduction to QGIS and Geoprocessing using the Census of Canada](http://www.davidmckie.com/JOUR4208Handout_2017_final_Oct23.pdf)
 
 [QGIS Training Tutorials: Using Spatial Data in Geographic Information Systems](https://open.canada.ca/data/en/dataset/89be0c73-6f1f-40b7-b034-323cb40b8eff)
-
-

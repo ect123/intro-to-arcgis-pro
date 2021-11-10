@@ -25,7 +25,7 @@ The last view from your map should appear.
 
 ### Layout Navigation
 Using the Layout Tab that now activates, take a moment to explore the Layout Toolbar.
-Notice how the Navigate options behavior differ from the Navigate on Map Mode.
+Notice how the Navigate options behaviour differs from the Navigate on Map Mode.
 
 ### Resizing the Data Frame
 Because the map is not the same proportions as the page, the border is larger than the frame; we will want to alter the size of the Map Frame (not the Page Size) to the size we desire for our final image.
@@ -76,7 +76,7 @@ This will bring up the properties for this element on the right of your screen.
 
 *10*{: .circle .circle-blue} Select **Show properties** under **Legend Items**.
 
-*11*{: .circle .circle-blue} Change the **Patch width** and **heighth** to be 13 pt by 4 pt, respectively and check the **Sclae to fit patch size** box.
+*11*{: .circle .circle-blue} Change the **Patch width** and **height** to be 13 pt by 4 pt, respectively and check the **Scale to fit patch size** box.
 
 This will make the dots symbolizing these two languages easier to see.
 
@@ -92,20 +92,20 @@ This will make the dots symbolizing these two languages easier to see.
 *5*{: .circle .circle-blue} Reposition the title in the middle but ensure it is inside the border of the map. You may need to reactivate the layout view to make the map part smaller so the legend can fit.
 
 ### Scale Bar
-*1*{: .circle .circle-blue} Go back to the Layout View and go to to Insert>Scale Bar
+*1*{: .circle .circle-blue} Go back to the Layout View and go to Insert>Scale Bar
 
 *2*{: .circle .circle-blue} On the **Scale Bar Format > Symbol**, Select Scale Line 1
 
 *3*{: .circle .circle-blue} Go to the **Design** tab and set the Number of Divisions to 1 and the Subdivisions to 1.
 
-*4*{: .circle .circle-blue} Set the **Division Units** to Kilometers.
+*4*{: .circle .circle-blue} Set the **Division Units** to Kilometres.
 
 *7*{: .circle .circle-blue} Use the handles to resize and reposition the Scale Bar.
 
 ### Export Your Map
 *1*{: .circle .circle-blue} Save your Work.
 
-*2*{: .circle .circle-blue} On the **Share** tab, go to the **Export** section and and click the **Layout** button.
+*2*{: .circle .circle-blue} On the **Share** tab, go to the **Export** section and click the **Layout** button.
 
 *3*{: .circle .circle-blue} Change the Save as type to PDF(*.pdf).
 

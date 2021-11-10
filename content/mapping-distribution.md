@@ -25,7 +25,7 @@ Let's create a few different layers using this symbology for the languages we id
 
 *7*{: .circle .circle-blue} Change the colour of the dots if need be to make sure they're visible. It should look something like the image below.
 
-![mandCant.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-to-arcgis-pro/master/content/images/mandCant.jpg)
+![mandCant.jpg](../images/mandCant.jpg)
 
 There's a pretty interesting pattern that appears, which is that speakers of these languages are distinctly spatially clustered, with mother tongue Mandarin speakers in the western part of the city and mother tongue Cantonese speakers largely in the eastern part. Why do think that might be? Migration and settlement patterns where people follow relatives or neighbours from the old country to settle in the same geographic areas of the city? Household income? Any other ideas?
 
@@ -44,9 +44,9 @@ There's a pretty interesting pattern that appears, which is that speakers of the
 
 You can see that there is also a distinct geographic distribution of Panjabi mother tongue language speakers.
 
-You also may have noticed by now that dot density symbology is more effective for this dataset compared to choropleth symbology. You may want to create a copy of the **Aboriginal Languages** layer and compare the choropleth and dot density symbologies for this dataset. 
+You also may have noticed by now that dot density symbology is more effective for this dataset compared to choropleth symbology. You may want to create a copy of the **Aboriginal Languages** layer and compare the choropleth and dot density symbologies for this dataset.
 
-![dotAborig.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-to-arcgis-pro/master/content/images/dotAborig.jpg)
+![dotAborig.jpg](../images/dotAborig.jpg)
 
 ### Exercise On Your Own
 *1*{: .circle .circle-blue} Create an additional one or two copies of the language data and, using dot density symbology, create one or two examples of the distribution of language speakers for a language of your choice.

@@ -18,7 +18,7 @@ _(Note: Almost every sub-command can be found 2 ways; as an icon on the feature 
 
 The data we'll be working with represents [Household Population by Mother Tongue](https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/pop095-eng.cfm) from the 2016 Census. It was retrieved from SimplyAnalytics, one of the [databases](https://resources.library.ubc.ca/?action=resources&rpaction=select&search=simplyanalytics&searchtype=keywords&format=) available from the UBC library. A mother tongue language is a person's first language. We will use data on household population by mother tongue language aggregated by [census tract](https://open.canada.ca/data/en/dataset/a846228b-5c71-4c53-b184-45d939d2940c).
 
-In this workshop, we will analyze this data to understand the spatial distribution of linguistic diversity in Vancouver. Although another Census variable, language spoken at home, could also be used, for the purposes of our analysis, we'll use houshold population by mother tongue to visualize where languages are spoken across the city.
+In this workshop, we will analyze this data to understand the spatial distribution of linguistic diversity in Vancouver. Although another Census variable, language spoken at home, could also be used, for the purposes of our analysis, we'll use household population by mother tongue to visualize where languages are spoken across the city.
 
 
 *1*{: .circle .circle-blue} Click on the **househldPopMotherTong_joinToThis** layer. The **Feature Layer** set (orange) appears at the top of the screen. There are 3 tabs under the **Feature Layer** set: **Appearance**, **Labeling**, and **Data**.
@@ -37,7 +37,7 @@ This dataset had to be downloaded as multiple datasets. All but one remaining da
 
 *4*{: .circle .circle-blue} **Right-Click** on the **househldPopMotherTong_joinTbl** layer and select **Attribute Table** to open it.
 
-Do you recognize any fieldnames from the attribute table of the first layer we opened? What do you think **VALUE0, VALUE1**, etc. represent? 
+Do you recognize any fieldnames from the attribute table of the first layer we opened? What do you think **VALUE0, VALUE1**, etc. represent?
 
 Notice there is another layer listed under **Standalone Tables** called **variable_names**.
 
@@ -45,7 +45,7 @@ Notice there is another layer listed under **Standalone Tables** called **variab
 
 Notice there is no way to view **variable_names**. It only exists as a table. Each data download for the language data came with both a spatial feature layer and an accompanying table. The information in the table was used to rename the **VALUE** fields in the spatial feature layer with meaningful information. When bringing Census data into a GIS, it often requires additional manipulation before it can be used or understood.
 
-*6*{: .circle .circle-blue} Expand the width of **Field1** to view all of the information. 
+*6*{: .circle .circle-blue} Expand the width of **Field1** to view all of the information.
 
 You'll notice that these values represent four additional languages which are not yet present in the **househldPopMotherTong_joinToThis** layer.
 

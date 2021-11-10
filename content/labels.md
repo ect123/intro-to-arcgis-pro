@@ -7,7 +7,7 @@ parent: Working with Layers
 ---
 )
 ### Labels
-Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Arcade or SQL scripting to assemble labels from several attributes and text elements. 
+Another property of the layers in our **Map Document** that we might want to enable is the labeling of features.  This can be accomplished, based upon an attribute value for each of the features. In many cases, this might be the name, or some other identifying attribute of the feature, but in some cases it might be a quantitative value associated with the features. It is even possible to use Arcade or SQL scripting to assemble labels from several attributes and text elements.
 
 In this example, we will label only the trees from the **largeDiameter** layer which also have a tree height greater than or equal to 8, which is a range identifier representing trees 80-90 ft tall. In order to label only certain features, we'll create another layer based on a selection.
 
@@ -30,17 +30,17 @@ This creates a temporary layer representing the selection.
 It will have retained the symbology from the **largeDiameter** layer
 4. Clear the selection from **largeDiameter** and turn off all the layers except **Tall trees** and from the top of the map, click on **Appearance>Symbology>Single Symbol**.
 5. In the **Symbology** window to the right of the map, click on the circle next to **Symbol**.
-6. In the **Format Point Symbol** window, select **Properties** and then choose **No color** from the **Color** dropdown. 
+6. In the **Format Point Symbol** window, select **Properties** and then choose **No color** from the **Color** dropdown.
 7. Then click on the **Layers** icon and select **No color** under **Outline color**. We will use this layer only for labeling and not for symbolizing.
 8. Click **Apply**.
 9. **Right-click** on the **Tall trees** layer and select **Label**. Pin the labeling properties window. To access the labeling properties, you can also go to **Feature Layer > Labeling > Layer** and click on the **Label** icon. Note that this turns on labels for all features and that ArcGIS selects a field containing names, by default.
-10. Turn on the **largeDiameter** layer again. 
+10. Turn on the **largeDiameter** layer again.
 Even though we are only trying to label 201 features, you can see that the labels are illegible.
 11. In the labeling properties window, we'll choose to label by **Common name** by double-clicking on it in the **Fields** window.
 This will populate the **Expression** window with an expression that looks like this: *$feature.common_nam*
 12. In the **Label Symbol** window, expand the **Appearance** option. Use the following parameters and click Apply:
 
-![appearance1.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/appearance1.jpg)
+![appearance1.jpg](../images/appearance1.jpg)
 
 The symbols are still clustered and hard to read, so we need to make additional customized changes. You may also be aware by now that customizing the appearance of a map is one of the most time-consuming aspects of creating a map. In order to make the labels more legible, we'll add a halo.
 

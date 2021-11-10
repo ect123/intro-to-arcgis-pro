@@ -16,7 +16,7 @@ Open the software and get familiar with the default user interface.
 *3*{: .circle .circle-blue} In the new dialog window, click ok to accept the defaults and finish creating your new project. Click on map under **Blank Templates** if necessary to enter the main user interface (UI) for ArcGIS Pro.
 
 You should see something like this:
-![mainUI_pro.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-to-arcgis-pro/master/content/images/mainUI_pro.jpg)
+![mainUI_pro.jpg](../images/mainUI_pro.jpg)
 
 ### Signing into ArcGIS Pro
 If you weren't already prompted to sign into your ArcGIS Online or UBC ArcGIS account, let's make sure to do so now. One of the advantages to ArcGIS Pro is its seamless connection to and interaction with ArcGIS Online and all of the layers and basemaps available.

@@ -21,13 +21,14 @@ By the end of this workshop, you will be able to:
 
 The map you create will look something like this image below.
 
-![map.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-to-arcgis-pro/master/content/images/map.jpg)
+![map.jpg](../images/map.jpg)
 
 ### GIS Resources at UBC
 - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/)    
 - UBC Library's guide for finding and working with GIS resources: [guides.library.ubc.ca/gis](http://guides.library.ubc.ca/gis)
 - UBC's GIS email list (participate or lurk!): [UBC GIS ListServ](https://lists.ubc.ca/scripts/wa.exe?SUBED1=GIS-LIST&A=1)  
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
+- Sign up for a [GIS consultation](https://researchcommons.library.ubc.ca/consultation-requests/) at the Research Commons
 - UBC Library GIS Help email: library.gis AT ubc.ca
 
 ### Setup
@@ -52,7 +53,7 @@ Included in your download is a project folder containing the following files:
 - Intro.**tbx**: a toolbox with analytical tools for your project
 - Index: folder with background organizing information
 
-[Download Data](https://www.dropbox.com/s/mdnvepkl2f8578j/IntroArcGISPro.zip?dl=0){: .btn .btn-blue }
+[Download Data](https://github.com/ubc-library-rc/intro-to-arcgis-pro/raw/master/data/IntroArcGISPro.zip){: .btn .btn-blue }
 
 *1*{: .circle .circle-blue} Save this file (.**zip**) to your Desktop.
 
