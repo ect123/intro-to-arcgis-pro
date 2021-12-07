@@ -30,18 +30,27 @@ The map you create will look something like this image below.
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Sign up for a [GIS consultation](https://researchcommons.library.ubc.ca/consultation-requests/) at the Research Commons
 - UBC Library GIS Help email: library.gis AT ubc.ca
+- GIS software purchase from the [UBC Webstore](http://gis.ubc.ca/software/)
 
 ### Setup
-This workshop requires the installation of Esri ArcGIS Pro available on UBC Library's lab computers via remote workstations on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca). Log into computers in:
+This workshop requires the installation of Esri ArcGIS Pro.
+
+#### Remote Access
+You can access ArcGIS Pro via remote workstation on UBC Library's lab computers on a first-come-first-serve basis. Log in with your CWL to access remote labs here: [remote labs](https://remotelabs.ubc.ca). Log into computers in:
 - Digital Scholarship Lab (RM 497) **newest machines**
 - Koerner Library Computer Lab (RM 217)
 - Data/GIS Lab (RM 218 A)
 
+#### Purchase Software as a Student
+The software is also available to UBC Students from the [UBC Webstore](http://gis.ubc.ca/software/). Students are eligible to download the ArcGIS suite for a fixed amount per year.
 
-The software is also available to UBC Students from the [UBC Webstore](http://gis.ubc.ca/software/). Students are eligible to download the ArcGIS suite for a fixed amount. As of 2019, this was $30/year.
+#### Operating ArcGIS Pro on a Mac
+ArcGIS Pro works best on a Windows operating system. For more information about running it on a Mac, see [Run ArcGIS Pro on a Mac](https://pro.arcgis.com/en/pro-app/latest/get-started/run-pro-on-a-mac.htm).
 
-If you do not want to purchase a license, you can sign up for a [free 21-day trial](https://www.esri.com/en-us/arcgis/trial?rmedium=esri_com_redirects01&rsource=https://links.esri.com/pro/trial).
+#### Sign Up for a Free Trial
+If you do not want to purchase a license, you can sign up for a [free 21-day trial](https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial).
 
+#### Sign Into ArcGIS Online
 Depending on the type of license you have, you may need to sign into ArcGIS Pro. If you purchased the UBC ArcGIS student license, you can sign into the same account you use for [ArcGIS Online](https://www.arcgis.com/index.html). You can also create a free public ArcGIS Online account to use if you have a temporary ArcGIS Desktop license. We will be accessing data on ArcGIS Online via ArcGIS Pro, so signing in is recommended.
 
 ### Download Workshop Data
