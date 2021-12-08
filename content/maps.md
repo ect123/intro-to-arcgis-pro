@@ -32,7 +32,7 @@ Because of the issues with working with data in different projections in the sam
 
 What you have just done is reassigned the coordinate system of the **Map Frame** to that of the **househldPopMotherTong_joinToThis**. The result of this change should be a substantial change to the view on the Map.
 
-*For more information about map projections and coordinate systems, see this [Understanding Spatial Data: Map Projections](https://ubc-library-rc.github.io/map-projections/) workshop.
+*For more information about map projections and coordinate systems, see this [Understanding Spatial Data: Map Projections](https://ubc-library-rc.github.io/map-projections/) workshop.*
 
 ### Explore Navigation and Tools in Data Frames
 Before we begin to explore the properties of _individual layers_ in the **Map Document**, we will first spend some time getting familiar with the _navigation tools_ in the **Map Document**.  Most of these tools can be found on the **Map Tab: Navigate** panel, though some of the more useful ones involve right-clicking context menus of the layers, or using the mouse and mouse wheel (press to Pan, role to zoom).

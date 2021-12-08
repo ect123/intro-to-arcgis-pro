@@ -43,9 +43,9 @@ Do you recognize any fieldnames from the attribute table of the first layer we o
 (Click the text for the answer)
 
 <details>
-<summary>What do you think **VALUE0, VALUE1**, etc. represent? ?</summary>
+<summary>What do you think **VALUE0, VALUE1**, etc. represent?</summary>
 
-<i>Web Mercator
+<i>
 <br>
 These represent different languages.
 <br>

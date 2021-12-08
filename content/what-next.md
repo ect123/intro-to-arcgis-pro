@@ -21,7 +21,7 @@ You may also be interested in the use of other GIS software to analyze Census da
 
 ### R
 
-[Languages Spoken at Home)](https://mountainmath.ca/languages-example.nb.html)
+[Languages Spoken at Home](https://mountainmath.ca/languages-example.nb.html)
 - working with dot density in R
 
 [canlang](https://ttimbers.github.io/canlang/)

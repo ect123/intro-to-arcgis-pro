@@ -16,8 +16,11 @@ Let's take a look at data again to understand what we're working with.
 <details>
 <summary>What do the numbers representing each language in each Census tract represent?</summary>
 <br>
-<i>Some numbers are over 100, so we know these are not percentages. These numbers represent actual language speakers of each language in each Census tract.<i>
+<i>Some numbers are over 100, so we know these are not percentages. These numbers represent actual language speakers of each language in each Census tract.<br>
+</i>
+
 </details>
+<br>
 
 *2*{: .circle .circle-blue} Scroll to the right and then down through the attribute table and notice what languages are represented by larger numbers of language speakers and which languages don't have very many speakers represented.
 
@@ -54,7 +57,9 @@ In this dropdown, the values are sorted by default in order of smallest to large
 <details>
 <summary>What is the largest value in the dataset?</summary>
 <br>
-<i>133.<i>
+<i>133.<br>
+</i>
+
 </details>
 <br>
 
