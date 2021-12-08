@@ -8,8 +8,8 @@ has_children: true
 ### WORKING WITH LAYERS
 
 ### Layer Visibility
-The **Table of Contents** also controls Layer Visibility.  You can toggle the Layer Visibility using the checkbox next to each Layer in the Table of Contents.
-- Use the Visibility Checkbox next to the **househldPopMotherTong_joinToThis** layer to turn on and off the visibility of the layer and any other layers in the map.
+The **Contents Pane** also controls layer visibility.  You can toggle the layer visibility using the checkbox next to each layer in the Contents Pane.
+- Use the visibility checkbox next to the **househldPopMotherTong_joinToThis** layer to turn on and off the visibility of the layer and any other layers in the map.
 
 ### Feature Layer Tab
 Almost everything you might want to do with a layer can be done under the **Feature Layer** tabs.  There are often short-cuts to do these tasks also, but the **Feature Layer** tab can help you first find ways to work with layers.  
@@ -31,19 +31,34 @@ You can also open the attribute table of a layer by right-clicking on that layer
 
 Do you see any replication? What do you think the numbers represent?
 
-Every feature you see in a map has a backend database associated with it where information is stored, called the [attribute table](http://wiki.gis.com/wiki/index.php/Attribute_table), which appears much as a spreadsheet. The most basic method of analysis in GIS is selection and sub-setting of data by attribute values.
+Every feature you see in a map has a backend database associated with it where information is stored, called the [attribute table](http://wiki.gis.com/wiki/index.php/Attribute_table), which appears much like a spreadsheet. The most basic method of analysis in GIS is selection and sub-setting of data by attribute values.
 
-This dataset had to be downloaded as multiple datasets. All but one remaining dataset have already been joined together.
+This dataset had to be downloaded as multiple datasets and joined together. All but one remaining dataset have already been joined together for you.
 
 *4*{: .circle .circle-blue} **Right-Click** on the **househldPopMotherTong_joinTbl** layer and select **Attribute Table** to open it.
 
-Do you recognize any fieldnames from the attribute table of the first layer we opened? What do you think **VALUE0, VALUE1**, etc. represent?
+Do you recognize any fieldnames from the attribute table of the first layer we opened?
+
+### *Reflection Question*
+(Click the text for the answer)
+
+<details>
+<summary>What do you think **VALUE0, VALUE1**, etc. represent? ?</summary>
+
+<i>Web Mercator
+<br>
+These represent different languages.
+<br>
+</i>
+
+</details>
+<br>
 
 Notice there is another layer listed under **Standalone Tables** called **variable_names**.
 
-*5*{: .circle .circle-blue} **Right-Click** on the **variable_names** layer and select **Attribute Table** to open it.
+*5*{: .circle .circle-blue} **Right-Click** on the **variable_names** layer and select **Open**.
 
-Notice there is no way to view **variable_names**. It only exists as a table. Each data download for the language data came with both a spatial feature layer and an accompanying table. The information in the table was used to rename the **VALUE** fields in the spatial feature layer with meaningful information. When bringing Census data into a GIS, it often requires additional manipulation before it can be used or understood.
+Notice there is no way to view **variable_names** on the map. It only exists as a table. Each data download for the language data came with both a spatial feature layer and an accompanying table. The information in the table was used to rename the **VALUE** fields in the spatial feature layer with language names. When bringing Census data into a GIS, it often requires additional manipulation before it can be used or understood.
 
 *6*{: .circle .circle-blue} Expand the width of **Field1** to view all of the information.
 

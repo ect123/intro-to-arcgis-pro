@@ -28,7 +28,7 @@ Using the Layout Tab that now activates, take a moment to explore the Layout Too
 Notice how the Navigate options behaviour differs from the Navigate on Map Mode.
 
 ### Resizing the Data Frame
-Because the map is not the same proportions as the page, the border is larger than the frame; we will want to alter the size of the Map Frame (not the Page Size) to the size we desire for our final image.
+Because the map does not match the proportions of the page (the border is larger than the frame), we will want to alter the size of the Map Frame (not the Page Size) to the size we desire for our final image.
 
 *1*{: .circle .circle-blue} Click on the **Format** tab.
 
@@ -63,7 +63,7 @@ Now you can move the map around, pan and zoom in and out until you get the map t
 
 *4*{: .circle .circle-blue} Select the **Legend** in the **Contents** pane and under the **Format** Set, go to **Format** tab.
 
-*5*{: .circle .circle-blue} Change the **Current Selection** from **Legend** to **Border** and make sure no there is Border outline. You can also right-click on the legend in the map and select **Properties**.
+*5*{: .circle .circle-blue} Change the **Current Selection** from **Legend** to **Border** and make sure there is no Border outline. You can also right-click on the legend in the map and select **Properties**.
 
 *7*{: .circle .circle-blue} Return to the **Map** tab.
 

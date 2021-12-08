@@ -28,7 +28,7 @@ You can see that the darker colours are associated with the Census tracts with h
 
 This is what is called [choropleth mapping](http://wiki.gis.com/wiki/index.php/Choropleth_map), and while it is very useful and a popular method for thematic mapping, it is also a method that can easily and inadvertently be used to misrepresent data.
 
-One of the rules of choropleth mapping is never to symbolize raw data, or absolute numbers. Instead we should use rates, ratios, or percentages. This is called [data normalization](https://web.mit.edu/11.188/www/labs/lab3/normalize_arcgis.pdf). In our case means that we need to transform the number of speakers into a proportional variable, such as number of speakers of a language divided by the total number of people per Census tract.
+One of the rules of choropleth mapping is never to symbolize raw data, or absolute numbers. Instead we should use rates, ratios, or percentages. This is called [data normalization](https://web.mit.edu/11.188/www/labs/lab3/normalize_arcgis.pdf). In our case that means we need to transform the number of speakers into a proportional variable, such as number of speakers of a language divided by the total number of people per Census tract.
 
 ArcGIS Pro has a built-in function to normalize your data when you're using graduated colours (choropleth mapping).
 

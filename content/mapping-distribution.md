@@ -15,7 +15,7 @@ In the previous section, we used choropleth mapping to visualize the distributio
 
 *3*{: .circle .circle-blue} Select the **Basic Random** colour scheme.
 
-Let's create a few different layers using this symbology for the languages we identified has having larger numbers of speakers. First let's create a map showing the distribution of Cantonese and Mandarin mother tongue language speakers.
+Let's create a few different layers using this symbology for the languages we identified as having larger numbers of speakers. First let's create a map showing the distribution of Cantonese and Mandarin mother tongue language speakers.
 
 *4*{: .circle .circle-blue} Select these languages from the dropdown arrows under **Fields**.
 
@@ -32,7 +32,7 @@ There's a pretty interesting pattern that appears, which is that speakers of the
 ### Mapping Additional Languages
 *1*{: .circle .circle-blue} Create a copy of this layer in the **Contents** pane by right-clicking and selecting **Copy** and then right-clicking **Map** and selecting **Paste** and save your map.
 
-*2*{: .circle .circle-blue} Rename the layer we used to create a choropleth map **Aboriginal Languages** by right-clicking the layer, selecting **Properties**, and renaming it under the **General** in the new window that pops up.
+*2*{: .circle .circle-blue} Rename the layer we used to create a choropleth map **Aboriginal Languages** by right-clicking the layer, selecting **Properties**, and renaming it under the **General** tab in the new window that pops up.
 
 *3*{: .circle .circle-blue} Rename the layer we just symbolized with dot density to **Mandarin and Cantonese Languages** and the newly copied layer to **Panjabi Languages**.
 
@@ -49,9 +49,7 @@ You also may have noticed by now that dot density symbology is more effective fo
 ![dotAborig.jpg](../images/dotAborig.jpg)
 
 ### Exercise On Your Own
-*1*{: .circle .circle-blue} Create an additional one or two copies of the language data and, using dot density symbology, create one or two examples of the distribution of language speakers for a language of your choice.
-
-You can also compare two or more languages in the same map.
+*1*{: .circle .circle-blue} Create an additional one or two copies of the language data and, using dot density symbology, create one or two examples of the distribution of language speakers for a language of your choice. You can also compare two or more languages in the same map.
 
 *2*{: .circle .circle-blue} Label these layers accordingly in the **Contents** pane.
 

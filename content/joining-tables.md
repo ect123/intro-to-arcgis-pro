@@ -6,7 +6,7 @@ parent: Working with Layers
 ---
 
 ### JOINING TABLES
-Joining data using a common attribute is an important and useful function in GIS. There are two ways of joinng data in a GIS, joining via an attribute from a table or joining data spatially based on how it intersects in space. You can also relate data from one table to another in order to understand how they are related. Rather than appending data from one table into another, a relate allows you to interact with the data between the two tables. Find out more about joins and relates in the [ArcGIS Pro documentation](https://pro.arcgis.com/en/pro-app/latest/help/data/tables/joins-and-relates.htm).
+Joining data using a common attribute is an important and useful function in GIS. There are two ways of joining data in a GIS, via an attribute from a table or  spatially based on how the data intersects with other data in space. You can also relate data from one table to another in order to understand how they are related. Rather than appending data from one table into another, a relate allows you to interact with the data between the two tables. Find out more about joins and relates in the [ArcGIS Pro documentation](https://pro.arcgis.com/en/pro-app/latest/help/data/tables/joins-and-relates.htm).
 
 We will perform an attribute join between our two spatial data layers in order to have all of the language data for Vancouver in one table.
 
@@ -20,11 +20,11 @@ This will stack the two tables on top of one another to make them easier to view
 
 *2*{: .circle .circle-blue} Right-click on the **VALUE0** fieldname and select **Fields** to open up the **Fields View**.
 
-*3*{: .circle .circle-blue} Referencing the information from the **variable_names** table, double-click in the **VALUE0** field under the **Field Name** column and change it to **aborigLangs** and the **Alias** to **Aboriginal Languages**.
+*3*{: .circle .circle-blue} Referencing the information from the **variable_names** table, double-click in the **VALUE0** field under the **Field Name** column and change it to **aborigLangs**. Change the **Alias** to **Aboriginal Languages**.
 
-Field names have character limits and cannot have spaces, but Aliases can.
+Field names have character limits and cannot have spaces, but aliases can.
 
-*4*{: .circle .circle-blue} Change the other three field names and alias for values 1, 2, and 3.
+*4*{: .circle .circle-blue} Change the other three field names and aliases for values 1, 2, and 3.
 
 | Original  | New Field Name | Alias |
 | ------------- | ------------- |
@@ -65,7 +65,7 @@ Note that this is a temporary join and has not altered the underlying dataset. I
 
 *3*{: .circle .circle-blue} Use **househldPopMotherTong** for the **Output Name** and click **OK** to create a new feature class, which should be added to your map when the process is completed.
 
-*4*{: .circle .circle-blue} Unjoin the table from the **househldPopMotherTong_joinToThis** layer by right-clicking on this layer in the **Contents** pane and selecting **Joins and Relates** > **Remove Join**.
+*4*{: .circle .circle-blue} Unjoin the table from the **househldPopMotherTong_joinToThis** layer by right-clicking on this layer in the **Contents Pane** and selecting **Joins and Relates** > **Remove Join**.
 
 *5*{: .circle .circle-blue} Uncheck other layers and open the attribute table for the new feature class you just created.
 
@@ -98,7 +98,7 @@ We want to join one more dataset to our table which contains attributes for the 
 
 *3*{: .circle .circle-blue} Using the same steps as above, join the **totalPopTract** table to the **househldPopMotherTong** layer using **spatial_id** and then export the data to a new feature class and call it **popMotherTongTractVan**.
 
-Each time I create a new dataset, I want to try and name it something that identifies what it is. Data management in GIS can be unruly, and having a good file naming system is essential.
+Every time you create a new dataset, try and name it something that identifies what it is. Data management in GIS can be unruly, and having a good file naming system is essential.
 
 *4*{: .circle .circle-blue} Delete any extraneous fields that got added toward the bottom of the attribute table in the **Fields View**.
 
