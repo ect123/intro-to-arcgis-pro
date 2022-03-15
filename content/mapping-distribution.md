@@ -32,7 +32,7 @@ There's a pretty interesting pattern that appears, which is that speakers of the
 ### Mapping Additional Languages
 *1*{: .circle .circle-blue} Create a copy of this layer in the **Contents** pane by right-clicking and selecting **Copy** and then right-clicking **Map** and selecting **Paste** and save your map.
 
-*2*{: .circle .circle-blue} Rename the layer we used to create a choropleth map **Aboriginal Languages** by right-clicking the layer, selecting **Properties**, and renaming it under the **General** tab in the new window that pops up.
+*2*{: .circle .circle-blue} Rename the layer we used to create a choropleth map of **Aboriginal Languages** by right-clicking the layer, selecting **Properties**, and renaming it under the **General** tab in the new window that pops up.
 
 *3*{: .circle .circle-blue} Rename the layer we just symbolized with dot density to **Mandarin and Cantonese Languages** and the newly copied layer to **Panjabi Languages**.
 

@@ -8,7 +8,7 @@ parent: Working with Layers
 ### Symbology
 *1*{: .circle .circle-blue} Change the **Basemap** back to **Light Gray Canvas** and save your map.
 
-Because we are going to symbolize the language data in a couple different ways, make a copy of the **popMotherTongTractVan_Final** layer.
+Because we are going to symbolize the language data in a couple different ways, make a copy of the **popMotherTongTractVan** layer.
 
 *2*{: .circle .circle-blue} Right-click the layer in the **Contents** pane and select **Copy**.
 

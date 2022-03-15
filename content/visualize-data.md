@@ -8,7 +8,7 @@ parent: Working with Layers
 ### VISUALIZING DATA
 Let's take a look at data again to understand what we're working with.
 
-*1*{: .circle .circle-blue} Open the attribute table of the **popMotherTongTractVan_Final** layer if it's not already open.
+*1*{: .circle .circle-blue} Open the attribute table of the **popMotherTongTractVan** layer if it's not already open.
 
 ### *Reflection Question*
 (Click the text for the answer)
@@ -24,7 +24,7 @@ Let's take a look at data again to understand what we're working with.
 
 *2*{: .circle .circle-blue} Scroll to the right and then down through the attribute table and notice what languages are represented by larger numbers of language speakers and which languages don't have very many speakers represented.
 
-Just a visual glance at the data reveals that it appears there are relatively large numbers of speakers of Cantonese, Mandarin, and Panjabi, with Ukrainian, Urdu, and Polish representing relatively small numbers of speakers, among others.
+Just a visual glance at the data shows there are relatively large numbers of speakers of Cantonese, Mandarin, and Panjabi, with Ukrainian, Urdu, and Polish representing relatively small numbers of speakers, among others.
 
 *3*{: .circle .circle-blue} Take a look at the **Aboriginal Languages** column. There are not large numbers of mother tongue speakers of Indigenous languages in Vancouver according to this data.
 
@@ -37,7 +37,7 @@ Let's take a closer look at the distribution of Aboriginal Languages by using a 
 
 *2*{: .circle .circle-blue} Set the following parameters:
 
--	Input Rows: popMotherTongTractVan_Final
+-	Input Rows: popMotherTongTractVan
 - Selection type: New Selection
 - Click: New Expression
 
@@ -93,6 +93,6 @@ Now we just see the outlines of the Census tracts. Let's change the basemap to g
 
 *6*{: .circle .circle-blue} Zoom into the selected tracts to see where in Vancouver larger numbers of mother tongue speakers of Indigenous languages are spoken.
 
-We see that these tracts are in an area known as the Downtown Eastside. If you are familiar with Vancouver, you may associate this area with large disparities between rich and poor, with fancy stores and restaurants and housing, along with large homeless populations.
+We see that these tracts are in an area known as the Downtown Eastside. If you are familiar with Vancouver, you may associate this area with large disparities between rich and poor, with fancy stores and restaurants and housing, along with a large homeless population.
 
 A simple data query and selection and visual analysis is enough to ask further questions about why a certain spatial pattern exists in a certain area. We are going to further explore symbology as a way to understand a dataset, but think about how you might go about understanding why the Census tracts with the highest numbers of speakers are clustered where they are. Is there a historical connection to this area? Would income data be informative? Are there relevant community institutions?

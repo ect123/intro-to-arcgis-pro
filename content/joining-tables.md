@@ -47,13 +47,13 @@ Joining two tables together requires that they have a field in common, and this 
 
 *3*{: .circle .circle-blue} From the **Contents** panel on the left, right-click on the **househldPopMotherTong_joinToThis** layer and select **Joins and Relates** and then **Add Join**.
 
-*3*{: .circle .circle-blue}	Select **spatial_id** as the **Input Join Field** (there may be a warning indicated by an exclamation point in a triangle about indexing. We can ignore that for this join).
+*4*{: .circle .circle-blue}	Select **spatial_id** as the **Input Join Field** (there may be a warning indicated by an exclamation point in a triangle about indexing. We can ignore that for this join).
 
-*4*{: .circle .circle-blue}If it is not selected automatically, select **househldPopMotherTong_joinTbl** as the **Join Table** and **spatial_id* as the **Join Table Field** for this table.
+*5*{: .circle .circle-blue} If it is not selected automatically, select **househldPopMotherTong_joinTbl** as the **Join Table** and **spatial_id* as the **Join Table Field** for this table.
 
-*5*{: .circle .circle-blue} Click **OK** to create the join.
+*6*{: .circle .circle-blue} Click **OK** to create the join.
 
-*6*{: .circle .circle-blue} Open the attribute table for the **househldPopMotherTong_joinToThis** layer and scroll all the way to the right to see whether this table has the new fields you added.
+*7*{: .circle .circle-blue} Open the attribute table for the **househldPopMotherTong_joinToThis** layer and scroll all the way to the right to see whether this table has the new fields you added.
 
 ### Export Data
 
@@ -87,7 +87,7 @@ This will select three rows which you can then delete together.
 
 *5*{: .circle .circle-blue} Click **Save** at the top of the map under the **Fields** tab and close the **Fields View** and save your map.
 
-*6*{: .circle .circle-blue} If you look at your attribute table now, you'll see that it has been cleaned up and is easier to understand.
+If you look at your attribute table now, you'll see that it has been cleaned up and is easier to understand.
 
 ### Exercise On Your Own
 We want to join one more dataset to our table which contains attributes for the total population by Census tract, also downloaded from SimplyAnalytics accessed through the UBC library. This will allow us to further analyze the language data we have.
