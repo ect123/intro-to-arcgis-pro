@@ -55,15 +55,17 @@ Joining two tables together requires that they have a field in common, and this 
 
 *7*{: .circle .circle-blue} Open the attribute table for the **househldPopMotherTong_joinToThis** layer and scroll all the way to the right to see whether this table has the new fields you added.
 
-### Export Data
+### Copy Features
 
-Note that this is a temporary join and has not altered the underlying dataset. In order to ensure this join is permanent, we'll create a new [feature class](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/feature-class-basics.htm).
+Note that this is a temporary join and has not altered the underlying dataset. In order to ensure this join is permanent, we'll create a new [feature class](https://pro.arcgis.com/en/pro-app/latest/help/data/geodatabases/overview/feature-class-basics.htm) by using the [Copy Features](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/copy-features.htm) tool.
 
-*1*{: .circle .circle-blue} Close the attribute table and right-click on the **househldPopMotherTong_joinToThis** layer in the **Contents** pane and select **Data** > **Export Features**.
+*1*{: .circle .circle-blue} Close the attribute table and click on the **View** tab at the top and select **Geoprocessing**. The geoprocessing pane will open on the right.
 
-*2*{: .circle .circle-blue} Click the **Browse** button to navigate to the **Intro.gdb**.
+*2*{: .circle .circle-blue} In the search field, type **copy features** and click on the first tool at the top, the **Copy Features** tool in the **Data Management** toolbox.
 
-*3*{: .circle .circle-blue} Use **househldPopMotherTong** for the **Output Name** and click **OK** to create a new feature class, which should be added to your map when the process is completed.
+*3*{: .circle .circle-blue} Use **househldPopMotherTong_joinToThis** for the **Input Features** and navigate to the Intro.gdb to create a new feature class called **popMotherTongTractVan** and click **Run**.
+
+The new feature class that is created with the join you added will appear in the **Contents** pane.
 
 *4*{: .circle .circle-blue} Unjoin the table from the **househldPopMotherTong_joinToThis** layer by right-clicking on this layer in the **Contents Pane** and selecting **Joins and Relates** > **Remove Join**.
 
